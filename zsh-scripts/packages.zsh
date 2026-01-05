@@ -1,0 +1,17 @@
+packages=(
+    neovim-nightly-bin
+    luajit
+    luarocks
+    lua
+    bat
+    fzf
+    ripgrep
+    grep
+    jujutsu
+    snapper
+    btrfs-progs
+    npm
+    python-pynvim
+    ruby
+    yay-bin
+)

@@ -1,0 +1,4 @@
+lua link.lua
+
+chsh -s /usr/bin/zsh
+zsh -c exit
