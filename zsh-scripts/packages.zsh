@@ -14,4 +14,6 @@ packages=(
     python-pynvim
     ruby
     yay-bin
+    hyprland
+    ly
 )

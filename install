@@ -2,3 +2,6 @@ lua link.lua
 
 chsh -s /usr/bin/zsh
 zsh -c exit
+
+sudo systemctl disable getty@tt2.service
+sudo systemctl enable ly@tt2.service
