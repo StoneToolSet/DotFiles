@@ -7,6 +7,7 @@ home = os.getenv("HOME")
 
 lfs.link(dir.."/nvim", home.."/.config/nvim", true)
 lfs.link(dir.."/hypr", home.."/.config/hypr", true)
+lfs.link(dir.."/bear", home.."/.config/bear", true)
 lfs.link(dir.."/zsh-scripts", home.."/.local/share/scripts", true)
 
 for file in lfs.dir(dir.."/zsh") do

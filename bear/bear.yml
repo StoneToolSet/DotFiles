@@ -1,0 +1,18 @@
+schema: '4.0'
+intercept:
+  mode: preload
+  path: /usr/lib/bear/libexec.so
+compilers: []
+sources:
+  only_existing_files: true
+duplicates:
+  match_on:
+  - file
+  - arguments
+format:
+  paths:
+    directory: as-is
+    file: as-is
+  entries:
+    use_array_format: true
+    include_output_field: true
